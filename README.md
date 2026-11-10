@@ -1,6 +1,14 @@
 # homeassistant addon cups airprint, forked and modified by Almidar. 
 Many thanks to Zajac.
 
+## Paper size (iPhone/iPad picking A4)
+
+Set the add-on's **paper_size** option to the paper in your tray (`letter`,
+`a4` or `legal`, default `letter`). On each start the add-on tells CUPS that
+this is the only paper loaded, so iOS stops offering A4/A5. After changing it,
+restart the add-on, then on the iPhone remove the printer from recent printers
+(or toggle Wi-Fi) so iOS re-reads the printer's settings.
+
 Original Text:
 # homeassistant addon cups airprint
 CUPS addon with working Avahi in reflector mode 
