@@ -1,5 +1,5 @@
 {
-  "name": "Home Assistant CUPS Addon 4 Brother HL2240",
-  "url": "https://github.com/almidar/homeassistant-addons/",
-  "maintainer": "Almidar"
+  "name": "CUPS AirPrint add-on for Brother HL-2280DW",
+  "url": "https://github.com/cwgannon/homeassistant-addon-cups-airprint-2280DW",
+  "maintainer": "Christopher Gannon"
 }
