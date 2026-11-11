@@ -54,8 +54,6 @@ RUN mkdir results \
 # HAOS IMAGE
 FROM ghcr.io/hassio-addons/debian-base/amd64:9.0.0 AS image
 
-LABEL io.hass.version="1.5" io.hass.type="addon" io.hass.arch="amd64"
-
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 

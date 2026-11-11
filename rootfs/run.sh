@@ -47,6 +47,6 @@ if [ -f /config/cups/printers.conf ]; then
   sed -i -E '/^Option (media|PageSize|PageRegion) /d' /config/cups/printers.conf
 fi
 
-bashio::log.info "Starting CUPS server as CMD from S6"
+bashio::log.info "Starting CUPS server"
 
 cupsd -f

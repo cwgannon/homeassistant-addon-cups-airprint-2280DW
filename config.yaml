@@ -1,8 +1,8 @@
 name: CUPS
-version: "1.2.0"
+version: "1.2.1"
 url: https://github.com/cwgannon/homeassistant-addon-cups-airprint-2280DW
 slug: cupsik
-description: A CUPS print server with working AirPrint for Brother HL2240
+description: CUPS print server with AirPrint, set up for a Brother HL-2280DW (bundles the Brother HL2240 driver)
 arch:
   - amd64
 usb: true
